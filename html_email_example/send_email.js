@@ -18,12 +18,12 @@ const emailContent = process.env.EMAIL_CONTENT;
 
 // Create a Nodemailer transporter
 const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com', // Your SMTP server address (e.g., smtp.gmail.com for Gmail)
-  port: 587, // Port number for your SMTP server
+  host: 'localhost', // Your SMTP server address (e.g., smtp.gmail.com for Gmail)
+  port: 1025, // Port number for your SMTP server usually 587
   secure: false, // Set to true if using SSL/TLS, otherwise, false
   auth: {
-    user: senderEmail, // Your email address for authentication
-    pass: passKey, // Your email password or app password
+    user: "project.1", // Your email address for authentication
+    pass: "secret.1", // Your email password or app password
   },
 });
 
