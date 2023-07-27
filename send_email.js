@@ -38,6 +38,10 @@ const mailOptions = {
       filename: 'RBHS1958v1.pdf',
       path: '\RBHS1958v1.pdf',
     },
+    {
+      filename: 'RBHS1958v2.pdf',
+      path: '\RBHS1958v2.pdf',
+    },
   ],
 };
 
